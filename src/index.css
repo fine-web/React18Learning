@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #dfdfdf;
+}
+
+.logs{
+    width: 600px;
+    background-color: #eae2b7;
+    border-radius: 10px;
+    margin: 5px auto;
+    padding: 5px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, .25);
+    display: flow-root;
+}
+
+.logs-item{
+    margin: 5px;
+    background-color: #fcbf49;
+    border-radius: 20px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, .25);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.logs-date{
+    width: 88px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.logs-date .month{
+    height: 30px;
+    line-height: 30px;
+    background-color: #d62828;
+    font-size: 15px;
+    color: white;
+}
+
+.logs-date .day{
+    background-color: #fff;
+    height: 40px;
+    line-height: 40px;
+    font-size: 30px;
+}
+
+.logs-item-desc{
+    flex: auto;
+    text-align: center;
+}
+
+.logs-item-desc h2{
+    margin: 10px 0;
+    font-size: 20px;
+    color: #003049;
+}
+
+.logs-item-time{
+    color: #d62828;
+}
