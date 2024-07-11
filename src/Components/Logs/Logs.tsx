@@ -18,7 +18,7 @@ class Logs extends React.Component<{},IState>{
 
     }
     public render(): JSX.Element {
-        return <div>
+        return <div className='logs'>
             {
                 this.state.timeArr.map((time)=>{
                     return <LogItem dateInfo = {time}></LogItem>
