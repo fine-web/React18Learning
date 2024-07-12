@@ -1,0 +1,23 @@
+.logs-item{
+    margin: 18px;
+    background-color: #fcbf49;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.logs-item-desc{
+    flex: auto;
+    text-align: center;
+}
+
+.logs-item-desc h2{
+    margin: 10px 0;
+    font-size: 20px;
+    color: #003049;
+}
+
+.logs-item-time{
+    color: #d62828;
+}
